@@ -47,12 +47,15 @@ a {
 /* Cover */
 
 #cover {
+    background-size: cover;
+    background-image: url("./img/undraw.png");
     background-color: rgba(23, 125, 78, .4);
     display: flex;
     align-items: center;
     justify-content:center;
     height: 40vh;
 }
+
 /* Image Flex */
 
 #img-thumbnails {
